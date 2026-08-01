@@ -1,8 +1,29 @@
 aid: process-sensing-technologies
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/process-sensing-technologies.png
 name: Process Sensing Technologies
-description: Process Sensing Technologies is a company surfaced as a portfolio company of battery-ventures
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Process Sensing Technologies (PST) is a measurement instrumentation group that
+  designs and manufactures precision sensors and analyzers for moisture, humidity,
+  dew point, oxygen, and trace gas measurement across industrial, pharmaceutical,
+  food, and life-science applications. Its brand portfolio includes Michell
+  Instruments, Rotronic, Analytical Industries, Ntron, SensoScientific, and Isensix,
+  spanning process gas analysis and real-time environmental monitoring. The company
+  now operates under the DwyerOmega brand following its combination with Dwyer
+  Instruments. It was surfaced as a Battery Ventures portfolio company and added to
+  the API Evangelist network for enrichment; probing of its public web surface found
+  hardware, software downloads, calibration tooling, and monitoring platforms but no
+  public developer API, SDK, or documentation portal.
 url: https://raw.githubusercontent.com/api-evangelist/process-sensing-technologies/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,27 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Sensors
+- Instrumentation
+- Measurement
+- Monitoring
+- Industrial
+- Gas Analysis
+- Humidity
 apis: []
+common:
+- type: Website
+  url: https://www.processsensing.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
